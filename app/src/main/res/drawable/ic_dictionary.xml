@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="24dp"
+    android:width="27dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <group
+        android:name="groupDroidDic"
+        android:pivotX="12"
+        android:pivotY="12">
+
+    <path android:fillColor="#ffffff"
+android:pathData="@string/dictionaryPath"/>
+    </group>
+</vector>

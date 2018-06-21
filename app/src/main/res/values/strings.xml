@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MotionDemonstrations</string>
+    <string name="surface_description">Here is an example of a surface. It is when a UI element utilizes
+    the elevation XML attribute to get a shadow, giving the impression that the element is above the surface below it and thus,
+    on a surface of its own.</string>
+    <string name="droidHeadPath">M8,11.5A1.25,1.25 0 0,0 6.75,12.75A1.25,1.25 0 0,0 8,14A1.25,1.25 0 0,0 9.25,12.75A1.25,1.25 0 0,0 8,11.5M16,11.5A1.25,1.25 0 0,0 14.75,12.75A1.25,1.25 0 0,0 16,14A1.25,1.25 0 0,0 17.25,12.75A1.25,1.25 0 0,0 16,11.5M12,7C13.5,7 14.9,7.33 16.18,7.91L18.34,5.75C18.73,5.36 19.36,5.36 19.75,5.75C20.14,6.14 20.14,6.77 19.75,7.16L17.95,8.96C20.41,10.79 22,13.71 22,17H2C2,13.71 3.59,10.79 6.05,8.96L4.25,7.16C3.86,6.77 3.86,6.14 4.25,5.75C4.64,5.36 5.27,5.36 5.66,5.75L7.82,7.91C9.1,7.33 10.5,7 12,7Z</string>
+
+    <string name="dictionaryPath">M19,2L14,6.5V17.5L19,13V2M6.5,5C4.55,5 2.45,5.4 1,6.5V21.16C1,21.41 1.25,21.66 1.5,21.66C1.6,21.66 1.65,21.59 1.75,21.59C3.1,20.94 5.05,20.5 6.5,20.5C8.45,20.5 10.55,20.9 12,22C13.35,21.15 15.8,20.5 17.5,20.5C19.15,20.5 20.85,20.81 22.25,21.56C22.35,21.61 22.4,21.59 22.5,21.59C22.75,21.59 23,21.34 23,21.09V6.5C22.4,6.05 21.75,5.75 21,5.5V7.5L21,13V19C19.9,18.65 18.7,18.5 17.5,18.5C15.8,18.5 13.35,19.15 12,20V13L12,8.5V6.5C10.55,5.4 8.45,5 6.5,5V5Z
+    </string>
+
+    <string name="mainTitle1">DATA</string>
+    <string name="mainTitle2">STRUCTURES</string>
+    <string name="treeDescription">A tree is a non-linear data structure where each data item can have ancestors and descendants. In the visual structure above, each
+                                   hexagon represents a data item. The top most hexagon is called the ROOT of the tree. Each hexagon can have multiple CHILDREN data that
+    extend from it, just as in a real family tree. These data items that extend are called SUBTREES. This data structure allows data to be organized in a hierarchy.</string>
+
+    <string name="binaryTreeDescription">A tree data structure can contain items that have multiple children, but when each only has a maximum of two, it is called a binary tree. This
+    helps with organization and data traversal. There are three traversals that can be implemented for a tree: pre, in, and post-order traversal. Pre-order: the root item is
+    visited first, the left child, then the right. In-order: left child, root, then the right child. Post-order: left child, right child, then the root.</string>
+
+    <string name="linkedListDescription">A linked list is a linear data structure that organizes data items one after another, as in an actual list of items. In the visual structure above, notice the hexagons are lined up. This means to reference an item, you must traverse
+                                        all the items that came before it. This effects the efficiency and can increase the O(n) value.
+                                         The implementation of this data structure usually has a first, last, and next item reference. These references can be used to
+                                        traverse the list to locate items.</string>
+    <string name="nodeDescription">In a data structure, you can use Nodes to hold data. Therefore, you can have a linked list of nodes, where each node has a \"data\" reference that is used to hold data.
+        Nodes provide for easier data manipulation and organization.</string>
+    <string name="doubleLinkedDescription">You can also implement a linked list where there exists a first, last, next, and previous item reference. This is called
+    a doubly linked list because each item has two references. However, the first and last nodes can be SENTINEL nodes where they are only used to indicate the beginning and
+    end of a list, containing no data. Sentinel nodes allow there to be no null references as the first node\'s \"next\" reference points to the last item and a loop is created.</string>
+    <string name="stacksDescription">A stack is a vertical data structure that lets you literally stack data items. In the visual structure above,
+    notice that you can only add and remove from the top of the stack. This is a last-in-first-out data structure.</string>
+    <string name="dictionaryDescription">A dictionary, or hashMap is a data structure in which the data items you store are represented and retrieved by search keys. In
+    the above visual structure, the hexagons on the left column represent the search keys, and the hexagons on the right columns represent their corresponding values.
+    These search keys can make the organization and retrieval of data items much easier or efficient.</string>
+    <string name="queueDescription">The queue data structure is similar to a stack, but with the opposite flow of data. Instead of being last-in-first-out, it is
+    first-in-first out. Take a look at the visual structure above. When you ENQUEUE, you are adding data items to the back of the queue. When you DEQUEUE, you are removing items from the front of the list. Data
+    items are accessed from one side of the data structure only.</string>
+    <string name="circularArrayDescription">Think of a circular array as a queue within an array. If you have enqueued the maximum number of items the array can hold, and then
+    dequeued, you would have an empty space at the beginning of the array. A circular array allows you to enqueue an item to fill that empty space at the front of the array
+    thus wrapping around the queue, creating a circular array.</string>
+     <string name="codeSign">&lt;/&gt;</string>
+
+
+</resources>

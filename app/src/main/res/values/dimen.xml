@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hexagon_height">100dp</dimen>
+    <dimen name="hexagon_width">110dp</dimen>
+    <dimen name="mainactivity_hexagon_position_radius">115dp</dimen>
+</resources>

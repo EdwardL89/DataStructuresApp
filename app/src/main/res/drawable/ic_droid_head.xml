@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportHeight="24"
+    android:viewportWidth="24"
+    android:name="droid">
+
+    <group
+        android:name="groupDroidDic"
+        android:pivotX="12"
+        android:pivotY="12">
+
+        <path
+            android:fillColor="#00ff83"
+            android:fillType="nonZero"
+            android:pathData="@string/droidHeadPath"
+            android:strokeColor="#00000000"
+            android:strokeWidth="1" />
+
+    </group>
+
+</vector>

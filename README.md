@@ -8,8 +8,9 @@ This is the implementation of my data structures app, written in Kotlin, that gi
 6) Linked Lists
 
 Within the app, users are given the option to open and view my DataStructuresImplementation respository which gives the actual implementation of each data structure in 
-Java with helpful Java Documentation. 
+Java with helpful Java Documentation.
 
+Also, the app is built with a more friendly user interface with features like SharedContent animations, touch selectors, and a dynamic background.
 
 ![image](https://user-images.githubusercontent.com/12478151/41756103-9bdc552a-75a8-11e8-8b74-645d76a5bff1.png)
 

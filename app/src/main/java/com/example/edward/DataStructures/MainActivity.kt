@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         val linkedListsButton = findViewById<Button>(R.id.linkedListsButton)
 
 
-
+        //Set on click listeners
         treesButton.setOnClickListener({
 
             val bundle: Bundle = ActivityOptions.makeSceneTransitionAnimation(this, treesButton, treesButton.transitionName).toBundle()
